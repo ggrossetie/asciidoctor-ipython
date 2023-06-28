@@ -6,7 +6,7 @@ The `core` module provides the basic data structures to
 
 * setup and run {feelpp} application in a parallel environment.
 * handle the command line options
-* download and upload data from and to Github and/or Girder
+* download and upload data from and to GitHub and/or Girder
 
 == Setting up the {feelpp} Environment
 
@@ -15,7 +15,7 @@ A {feelpp} environment can be created only once.
 The repository can be global with respect to `$HOME/.feelppconfig` `globalroot` setting  or local with respect to the current directory.
 
 .Set the {feelpp} environment with local repository
-[source,python%dynamic]
+[source%dynamic,python]
 ----
 import feelpp as fpp
 import sys
@@ -122,5 +122,4 @@ fig.show()
 .Results
 ====
 .Plot the stem:[displacement] of the cylinder over time
-image::core-ydisp.png[]
 ====
