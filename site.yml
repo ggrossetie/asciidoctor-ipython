@@ -1,0 +1,15 @@
+site:
+  title: Feel++ Docs
+  url: https://docs.feelpp.org/
+  start_page: toolbox::index.adoc
+content:
+  sources:
+  - url: .
+    branches: HEAD
+    start_path: docs
+ui:
+  bundle:
+    url: https://github.com/feelpp/antora-ui/releases/download/v0.16/ui-bundle.zip # https://gitlab.com/feelpp/antora-ui-default/-/jobs/artifacts/feelpp/raw/build/ui-bundle.zip?job=bundle-stable
+asciidoc:
+  extensions:
+    - ./lib/dynamic-python.js
